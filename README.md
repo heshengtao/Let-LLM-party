@@ -1,6 +1,6 @@
 ![img](img/1280X1280.PNG)
 
-# 30天！学会LLM Party！
+# 30天！学会LLM Party！(已更新到第6天)
 - [DAY1：派对开始](doc/day01.md)
 - [DAY2：LLM API怎么玩](doc/day02.md)
 - [DAY3：本地LLM怎么玩](doc/day03.md)
