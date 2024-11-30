@@ -11,7 +11,7 @@
 一般来说，我们都是从huggingface这个网站上下载模型，如果你是国内网络环境，请在魔塔社区下载，也是一样的。
 ## 2. 学会调用分散格式的本地LLM
 1. 第一步就是下载本地模型，你可以选择从hugging face上下载
-也可以从我的百度网盘中下载一些我已经测试过的模型：百度云地址，提取码：qyhu
+也可以从我的夸克云中下载一些我已经测试过的模型：[夸克云地址](https://pan.quark.cn/s/190b41f3bbdb)
 当你在hugging face上找到了一个这样的模型：
 
 ![图片](../img/3-1.PNG)
@@ -31,7 +31,7 @@
 
 3. 在本地LLM加载器节点上的model name or path属性上填入你的模型文件夹的绝对路径，例如：E:\model\Llama-3.2-1B-Instruct。又或者你可以填入一个hugging face的repo id，这会从hugging face上直接拉取对应的模型到本地，例如：lllyasviel/omost-llama-3-8b-4bits。点击queue即可！
 ## 3. 学会调用GGUF格式的本地LLM
-1. 同样可以从我的网盘里找到一些我测试过的模型：[百度云地址](https://pan.baidu.com/share/init?surl=T4aEB4HumdJ7iVbvsv1vzA&pwd=qyhu)，提取码：qyhu
+1. 同样可以从我的夸克云中下载一些我已经测试过的模型：[夸克云地址](https://pan.quark.cn/s/190b41f3bbdb)
 当你在hugging face上找到了一个这样的模型：
 
 ![图片](../img/3-5.PNG)
