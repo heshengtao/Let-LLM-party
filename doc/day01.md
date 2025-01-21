@@ -59,7 +59,7 @@
 3. 如果你使用ollama模型，请使用LLM_api节点，在节点的base_url填入http://127.0.0.1:11434/v1/，在api_key填入ollama，在model_name填入你的模型名称，例如:llama3。或者直接打开LLM API加载器节点上的is_ollama再填入model_name即可
 4. 如果你要使用图片输入LLM，推荐使用图床imgbb，在节点上输入你的imgbb_api_key。下图为查看imgbb_api_key的位置。
 
-![图片](../img/1-7.PNG)
+![图片](../img/1-7.jpg)
 
 ## 4. 今日成就
 恭喜你达成成就：【欢迎加入派对~我的朋友！】
