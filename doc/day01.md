@@ -44,7 +44,7 @@
 
 3. 如果你使用ollama模型，在base_url填入http://127.0.0.1:11434/v1/，在openai_api_key填入ollama，在model_name填入你的模型名称，例如:llama3。豆包模型为你的豆包接入点ID。
 4. 如果你要使用谷歌搜索或者必应搜索工具，在config.ini输入你的google_api_key、cse_id或bing_api_key。
-5. 如果你要使用图片输入LLM，推荐使用图床[imgbb](https://imgbb.io)，在config.ini输入你的imgbb_api。
+5. 如果你要使用图片输入LLM，推荐使用图床[imgbb](https://imgbb.com)，在config.ini输入你的imgbb_api。
 6. 每个模型都可以在config.ini文件中单独配置，可以参考config.ini.example文件填写。当你配置好之后，只需要在节点上输入model_name即可。参考这样的写法，[]中写你想要调用的模型名称，例如：gpt-4o-mini，并在[]下按下图中的写法填入你的base url和api key。之后你可以直接在LLM API加载器节点上，只输入模型名称，base url和api key保持为空，即可自动调用config.ini中的预设base url和api key。
 
 ![图片](../img/1-5.PNG)
@@ -57,9 +57,7 @@
 1. 打开comfyui界面。
 2. 新建LLM API 加载器节点，在节点中直接输入你的model_name（填入模型名称，例如:llama3。豆包模型为你的豆包接入点ID）、openai_api_key、base_url。
 3. 如果你使用ollama模型，请使用LLM_api节点，在节点的base_url填入http://127.0.0.1:11434/v1/，在api_key填入ollama，在model_name填入你的模型名称，例如:llama3。或者直接打开LLM API加载器节点上的is_ollama再填入model_name即可
-4. 如果你要使用图片输入LLM，推荐使用图床imgbb，在节点上输入你的imgbb_api_key。下图为查看imgbb_api_key的位置。
-
-![图片](../img/1-7.jpg)
+4. 如果你要使用图片输入LLM，推荐使用图床[imgbb](https://imgbb.com)，在节点上输入你的imgbb_api_key。
 
 ## 4. 今日成就
 恭喜你达成成就：【欢迎加入派对~我的朋友！】
